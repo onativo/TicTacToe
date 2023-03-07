@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic-Tac Toe</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <script src="assets/js/script.js" async></script>
+</head>
+<body>
+  <h1>Tic-Tac Toe</h1>
+  <div id="buttons-container">
+    <button id="2-players">1 vs 1</button>
+    <button id="bot">1 vs AI</button>
+  </div>
+
+  <div id="container" class="hide">
+    <div id="block1" class="box"></div>
+    <div id="block2" class="box"></div>
+    <div id="block3" class="box"></div>
+    <div id="block4" class="box"></div>
+    <div id="block5" class="box"></div>
+    <div id="block6" class="box"></div>
+    <div id="block7" class="box"></div>
+    <div id="block8" class="box"></div>
+    <div id="block9" class="box"></div>
+
+    <div id="score">
+
+      <h3>Scores:</h3>
+
+      <span class="score-box">
+        <span id="x-score">X</span>:
+        <span id="start-score-x">0</span>
+      </span>
+
+      <span class="score-box">
+        <span id="o-score"></span>:
+        <span id="start-score-o">0</span>
+      </span>
+    </div>
+  </div>
+
+  <div class="hide">
+    <div class="x">X</div>
+    <div class="o"></div>
+  </div>
+
+  <div id="message" class="hide">
+    <p></p>
+  </div>
+
+</body>
+</html>
