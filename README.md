@@ -9,9 +9,9 @@ Details:
 - Clicking on 1 vs 1 you can play with a human adversary. Each one have a turn to play.
 - Chosing 1 vs AI you will play with a Artificial Intelligence, can you beat it?
 
-![Chosing game][assets/img/main-page.PNG]
+![Chosing game](assets/img/main-page.PNG)
 
 
 This is what it looks like when you're playing.
 
-![Playing][assets/img/play-page.PNG]
+![Playing](assets/img/play-page.PNG)
